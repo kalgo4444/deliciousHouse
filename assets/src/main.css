@@ -1,0 +1,71 @@
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: Tinos;
+  src: url("../fonts/Tinos-Regular.ttf");
+}
+@import "tailwindcss";
+@theme {
+  --font-titleFont: Tinos;
+  --font-textFont: OpenSans;
+  --color-mainColor: #d67e35;
+  --color-secondColor: #bc9060;
+  --color-textColor: #656363;
+}
+
+.mContainer {
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.allBtn {
+  text-transform: uppercase;
+  background: #d67e35;
+  border: 2px solid transparent;
+  padding: 13px 18px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.25s;
+  font-weight: 600;
+  color: #fff;
+}
+.allBtn:hover {
+  background: #fff;
+  border: 2px solid #d67e35;
+  color: #d67e35;
+}
+.allBtn:active {
+  background: #d67e35;
+  border: 2px solid #d67e35;
+  color: #fff;
+}
+.menuBtn {
+  text-transform: uppercase;
+  background: #d67e35;
+  border: 2px solid transparent;
+  padding: 13px 66px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.25s;
+  font-weight: 600;
+  color: #fff;
+  box-shadow: 3px 3px 10px #0003;
+}
+.menuBtn:hover {
+  background: #fff;
+  border: 2px solid #d67e35;
+  color: #d67e35;
+}
+.menuBtn:active {
+  background: #d67e35;
+  border: 2px solid #d67e35;
+  color: #fff;
+}

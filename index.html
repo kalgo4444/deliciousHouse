@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foods</title>
+    <link rel="stylesheet" href="assets/src/style.css" />
+    <link rel="icon" href="./assets/images/logo.svg" />
+  </head>
+  <body>
+    <header class="absolute top-0 left-0 w-full z-10">
+      <navbar
+        class="mContainer h-[100px] lg:h-[170px] flex items-center justify-between text-white"
+      >
+
+        <div>
+          <img src="./assets/images/logo.svg" alt="" />
+        </div>
+        <div class="flex items-center gap-10">
+          <div class="hidden lg:block">
+            <div class="flex items-center gap-7">
+  
+              <ul class="font-textFont font-bold text-sm flex items-center gap-6">
+                <li class="hover:text-mainColor active:text-white duration-100">
+                  <a href="#"><span>ГЛАВНАЯ</span></a>
+                </li>
+                <li class="hover:text-mainColor active:text-white duration-100">
+                  <a href="#"><span>МЕНЮ</span></a>
+                </li>
+                <li class="hover:text-mainColor active:text-white duration-100">
+                  <a href="#"><span>О НАС</span></a>
+                </li>
+                <li class="hover:text-mainColor active:text-white duration-100">
+                  <a href="#"><span>БРОНЬ</span></a>
+                </li>
+              </ul>
+  
+              <div class="flex items-center gap-5">
+                <img
+                  src="./assets/images/cart.svg"
+                  alt=""
+                  class="cursor-pointer"
+                />
+                <img src="./assets/images/Line.svg" alt="" />
+              </div>
+  
+              <div class="flex flex-col">
+                <div class="flex gap-1 items-center">
+                  <img src="./assets/images/phone.svg" alt="" />
+                  <span
+                    class="text-lg font-bold hover:text-mainColor active:text-white duration-75 cursor-pointer"
+                    >+999-888-76-54</span
+                  >
+                </div>
+                <span
+                  class="text-sm hover:text-mainColor active:text-white duration-75 cursor-pointer"
+                >
+                  Свяжитесь с нами для <br />
+                  бронирования
+                </span>
+              </div>
+  
+            </div>
+          </div>
+          <button class="allBtn hidden sm:block">ЗАКАЗ СТОЛИКА</button>
+          <img src="assets/images/manu.svg" alt="" class="block sm:hidden">
+      </navbar>
+        </div>
+
+    </header>
+    <main>
+      <!-- hero  -->
+      <section class="bg-[url(/assets/images/heroBG.png)] bg-no-repeat bg-cover bg-center bg-fixed min-h-[800px] w-full relative">
+        <div class="mContainer min-h-[800px] flex flex-col justify-center">
+          <div class="md:max-w-[570px] w-full text-center flex flex-col justify-center items-center">
+            <h1 class="text-center text-mainColor text-3xl sm:text-4xl md:text-[50px] font-titleFont leading-[1.2]">Добро пожаловать в <br> <span class="text-4xl sm:text-5xl md:text-6xl lg:text-[80px] font-titleFont">Наш ресторан</span></h1>
+            <div class="flex items-center gap-3 mx-auto mt-5">
+              <img src="./assets/images/Rectangle.svg" alt="" class="hidden sm:block">
+              <span class="font-textFont text-white text-sm md:text-base lg:text-lg">ДОМ ЛУЧШЕЙ ЕДЫ</span>
+              <img src="./assets/images/Rectangle.svg" alt="" class="hidden sm:block">
+            </div>
+            <button class="allBtn mt-5">VIEW MENU</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- cards  -->
+      <section class="z-20">
+        <div class="mContainer grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 -translate-y-[100px]">
+          
+          <article class=" py-10 shadow-2xl bg-white">
+            <div class="">
+              <img src="./assets/images/cardImage.svg" alt="" class="block mx-auto">
+            </div>
+            <div class="font-titleFont text-lg sm:text-2xl md:text-[26px] text-center">
+              <p>Магическая <span class="text-secondColor mt-1">Атмосфера</span></p>
+              <p class="text-[#656363] mt-5">В нашем заведении царит магическая атмосфера
+                наполненная вкусными ароматами</p>
+            </div>
+          </article>
+
+          <article class=" py-10 shadow-2xl bg-white">
+            <div class="">
+              <img src="./assets/images/cardImage.svg" alt="" class="block mx-auto">
+            </div>
+            <div class="font-titleFont text-lg sm:text-2xl md:text-[26px] text-center">
+              <p>Лучшее качество  <span class="text-secondColor mt-1">Еды</span></p>
+              <p class="text-[#656363] mt-5">Качество нашей <br> 
+                Еды - отменное!
+                </p>
+            </div>
+          </article>
+
+          <article class=" py-10 px-2 shadow-2xl bg-white">
+            <div class="">
+              <img src="./assets/images/cardImage.svg" alt="" class="block mx-auto">
+            </div>
+            <div class="font-titleFont text-lg sm:text-2xl md:text-[26px] text-center">
+              <p>Недорогая <span class="text-secondColor mt-1">Еда</span></p>
+              <p class="text-[#656363] mt-5">Стоимость нашей Еды
+                зависит только от ее
+                количества. Качество
+                всегда на высоте!</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- history -->
+       <section class="py-6 md:py-14">
+        <div class="mContainer flex flex-col md:flex-row gap-7">
+
+          <div class="w-full md:w-[50%] text-center py-4">
+            <h2 class="font-titleFont text-3xl sm:text-4xl md:text-5xl lg:text-[56px]">Наша <span class="text-secondColor">История</span></h2>
+            <p class="w-full md:max-w-[444px] mx-auto text-textColor mt-5 font-textFont">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</p>
+            <div class="flex flex-col sm:flex-row max-w-[300px] mx-auto gap-8 mt-10">
+              <div>
+                <span class="text-secondColor text-[40px]">93</span> <br>
+                <span class="text-xl">Напитки</span>
+              </div>
+              <div>
+                <span class="text-secondColor text-[40px]">206</span> <br>
+                <span class="text-xl">Еда</span>
+              </div>
+              <div>
+                <span class="text-secondColor text-[40px]">71</span> <br>
+                <span class="text-xl">Закуски</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-full md:w-[50%]">
+            <img src="./assets/images/historyPhoto.png" alt="" class="block mx-auto">
+          </div>
+        </div>
+       </section>
+
+      <!-- order  -->
+       <section class="bg-[url(/assets/images/orderBG.png)] bg-no-repeat bg-cover bg-center my-7 md:my-14">
+        <div class="mContainer min-h-[357px] flex flex-col md:flex-row items-center justify-center md:justify-between max-md:text-center gap-10">
+          <div>
+            <h3 class="w-full md:max-w-[601px] text-mainColor font-titleFont text-[30px] sm:text-4xl md:text-5xl lg:text-[52px] leading-[1.2]">Отпразднуйте в одном из 
+              самых лучших ресторанов.</h3>
+              <p class="font-textFont text-white text-2xl font-bold mt-5">Только в этом месяце бизнес-ланч от 250 ₽</p>
+          </div>
+          <div>
+            <button class="allBtn">ЗАКАЗ СТОЛИКА</button>
+          </div>
+        </div>
+       </section>
+
+       <!-- menu  -->
+        <section class="bg-[url(/assets/images/menuBG.png)] bg-no-repeat bg-cover bg-center">
+          <div class="mContainer min-h-[1034px] py-[100px]">
+            <h2 class="font-titleFont text-3xl sm:text-4xl md:text-5xl lg:text-[56px] text-white text-center">Наше меню</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-[138px]">
+
+              <article class="bg-white pt-[80px] pb-[30px] text-center">
+                <div class="relative">
+                  <img src="/assets/images/menyFoot.png" alt="" class="block mx-auto rounded-[50%]">
+                  <button class="absolute bottom-0 right-[15%] sm:right-[30%] md:right-14 lg:right-10 text-3xl font-titleFont text-white z-30 size-[95px] border-[5px] border-white bg-mainColor rounded-[50%] hover:bg-secondColor duration-75 cursor-pointer">420</button>
+                </div>
+                <div class="mt-[22px]">
+                  <b class="font-titleFont text-xl md:text-2xl lg:text-[26px]">Гамбургер макси</b>
+                  <p class="font-textFont my-5">Максимально толстый <br> слой мяса</p>
+                  <button class="menuBtn">ЗАКАЗАТЬ</button>
+                </div>
+              </article>
+
+              <article class="bg-white pt-[80px] pb-[30px] text-center max-sm:hidden">
+                <div class="relative">
+                  <img src="/assets/images/menyFoot.png" alt="" class="block mx-auto rounded-[50%]">
+                  <button class="absolute bottom-0 right-[15%] sm:right-[30%] md:right-14 lg:right-10 text-3xl font-titleFont text-white z-30 size-[95px] border-[5px] border-white bg-mainColor rounded-[50%] hover:bg-secondColor duration-75 cursor-pointer">420</button>
+                </div>
+                <div class="mt-[22px]">
+                  <b class="font-titleFont text-xl md:text-2xl lg:text-[26px]">Гамбургер макси</b>
+                  <p class="font-textFont my-5">Максимально толстый <br> слой мяса</p>
+                  <button class="menuBtn">ЗАКАЗАТЬ</button>
+                </div>
+              </article>
+
+              <article class="bg-white pt-[80px] pb-[30px] text-center max-sm:hidden">
+                <div class="relative">
+                  <img src="/assets/images/menyFoot.png" alt="" class="block mx-auto rounded-[50%]">
+                  <button class="absolute bottom-0 right-[15%] sm:right-[30%] md:right-14 lg:right-10 text-3xl font-titleFont text-white z-30 size-[95px] border-[5px] border-white bg-mainColor rounded-[50%] hover:bg-secondColor duration-75 cursor-pointer">420</button>
+                </div>
+                <div class="mt-[22px]">
+                  <b class="font-titleFont text-xl md:text-2xl lg:text-[26px]">Гамбургер макси</b>
+                  <p class="font-textFont my-5">Максимально толстый <br> слой мяса</p>
+                  <button class="menuBtn">ЗАКАЗАТЬ</button>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </section>
+       <!-- coments  -->
+        <section class="bg-[#E5E5E5] py-[70px] md:py-[104px]">
+          <div class="mContainer text-center font-textFont">
+            <p class="w-full md:max-w-[920px] mx-auto text-lg md:text-xl italic">Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной  Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем  рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!</p>
+            <img src="./assets/images/comentImage.svg" alt="" class="block mx-auto rounded-[50%] my-5">
+            <b class="text-base sm:text-xl">Посетитель</b>
+            <p class="text-base sm:text-xl">Николай</p>
+          </div>
+        </section>
+       <!-- meals  -->
+        <section class="my-14">
+          <div class="mContainer">
+            <h2 class="font-titleFont text-3xl sm:text-4xl md:text-5xl lg:text-[56px] text-center">Галерея  <span class="text-secondColor">Блюд</span></h2>
+            <div class="flex flex-col md:flex-row gap-8 mt-16">
+              <div class="w-full md:w-[50%] ">
+                <div class="grid sm:grid-cols-2 gap-5">
+                  <div class="col-auto sm:col-span-2 max-sm:max-w-[253px] max-sm:min-h-[274px] mx-auto"><img src="./assets/images/meals1.png" alt="" class="mx-auto max-sm:w-full max-sm:h-full"></div>
+                  <div><img src="./assets/images/meals2.png" alt="" class="mx-auto"></div>
+                  <div><img src="./assets/images/meals3.png" alt="" class="mx-auto"></div>
+                </div>
+              </div>
+              <div class="w-full md:w-[50%] ">
+                <div class="grid sm:grid-cols-2 gap-5">
+                  <div><img src="./assets/images/meals2.png" alt="" class="mx-auto"></div>
+                  <div><img src="./assets/images/meals3.png" alt="" class="mx-auto"></div>
+                  <div class="col-auto sm:col-span-2 max-sm:max-w-[253px] max-sm:min-h-[274px] mx-auto"><img src="./assets/images/meals1.png" alt="" class="mx-auto max-sm:w-full max-sm:h-full"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+       <!-- cookers -->
+        <section>
+          <div class="mContainer mt-8 py-16">
+            <h2 class="font-titleFont text-3xl sm:text-4xl md:text-5xl lg:text-[56px] text-center">Наша <span class="text-secondColor">Повара</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 md:mt-16 lg:mt-[107px]">
+              <article>
+                <img src="./assets/images/cooker1.png" alt="" class="block mx-auto">
+              </article>
+              <article>
+                <img src="./assets/images/cooker2.png" alt="" class="block mx-auto">
+              </article>
+              <article>
+                <img src="./assets/images/cooker3.png" alt="" class="block mx-auto">
+              </article>
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <footer class="bg-[url(/assets/images/footer.png)] bg-no-repeat bg-cover bg-center bg-fixed min-h-[732px]"></footer>
+  </body>
+
+</html>
